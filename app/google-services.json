@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "185710361588",
+    "firebase_url": "https://carrent-88aa2-default-rtdb.firebaseio.com",
+    "project_id": "carrent-88aa2",
+    "storage_bucket": "carrent-88aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185710361588:android:d64423443f8842cad6d7a1",
+        "android_client_info": {
+          "package_name": "com.example.carrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185710361588-p384fr21mnvntfgi04p0l7ltlt82tgnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNp0JlGElfMYv9OP6bE3JSdD1dWUHQ8d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185710361588-p384fr21mnvntfgi04p0l7ltlt82tgnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185710361588:android:7049a9aba174ea21d6d7a1",
+        "android_client_info": {
+          "package_name": "com.example.senyakapro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185710361588-p384fr21mnvntfgi04p0l7ltlt82tgnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNp0JlGElfMYv9OP6bE3JSdD1dWUHQ8d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185710361588-p384fr21mnvntfgi04p0l7ltlt82tgnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

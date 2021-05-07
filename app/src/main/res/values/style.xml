@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style1">
+
+        <item name="android:fontFamily">@font/lato</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SenyakaPro</string>
+    <string name="date">Please enter the value</string>
+    <string name="name">Please enter the brand name</string>
+    <string name="vehi">Please enter the vehical ID</string>
+    <string name="pass">Please enter the passenger</string>
+    <string name="tran">Please enter the transmissions!</string>
+    <string name="bna">Please enter the daily price!</string>
+    <string name="ett">pleace enter the user name</string>
+</resources>
