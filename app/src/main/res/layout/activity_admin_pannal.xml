@@ -5,30 +5,34 @@
     xmlns:tools2="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrrond"
+    android:background="@drawable/carrental"
     tools:context=".AdminPannal">
 
     <Button
         android:id="@+id/addVehi2"
         android:layout_width="332dp"
         android:layout_height="53dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/settin"
+        android:drawableStart="@drawable/add_24"
         android:text="Add Vehical"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:background="@drawable/btncolo"   />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="332dp"
         android:layout_height="53dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="33dp"
-        android:background="@drawable/btncolo"
+        android:background="@drawable/settin"
+        android:drawableStart="@drawable/add_24"
         android:text="Add FAQ"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -41,18 +45,19 @@
     <Button
         android:layout_width="332dp"
         android:layout_height="53dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="276dp"
-        android:background="@drawable/btncolo"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/settin"
+        android:drawableStart="@drawable/add_box_24"
         android:text="Other"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button40"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn1goho"
@@ -72,9 +77,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="195dp"
-        android:layout_height="41dp"
+        android:layout_width="391dp"
+        android:layout_height="38dp"
         android:layout_marginTop="76dp"
+        android:background="@drawable/btncolo2"
         android:text="Admin pannel"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -82,5 +88,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.34" />
 </androidx.constraintlayout.widget.ConstraintLayout>

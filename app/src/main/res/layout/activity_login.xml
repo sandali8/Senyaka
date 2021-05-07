@@ -5,13 +5,14 @@
     android:id="@+id/btnLogin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrrond"
+    android:background="@drawable/carrental"
     tools:context=".Login">
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
+        android:layout_width="405dp"
+        android:layout_height="39dp"
+        android:background="@drawable/btncolo"
         android:text="Admin login"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -20,12 +21,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.115" />
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="288dp"
         android:layout_height="54dp"
+        android:drawableRight="@drawable/account"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -40,7 +42,7 @@
         android:id="@+id/btnlo11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/btncolo"
+        android:background="@drawable/settin"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +55,7 @@
         android:id="@+id/btngohome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/btncolo"
+        android:background="@drawable/settin"
         android:text="home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,13 +78,14 @@
 
     <View
         android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="117dp"
+        android:layout_width="0dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="76dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -90,6 +93,7 @@
         android:id="@+id/etPassword"
         android:layout_width="287dp"
         android:layout_height="59dp"
+        android:drawableRight="@drawable/security"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"

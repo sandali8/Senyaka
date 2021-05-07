@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_shadow_end_color"
-    tools:context=".gallery">
+    android:background="@drawable/carrental"
+    tools:context=".gallery"
+    >
 
     <ImageView
         android:id="@+id/imageView"
@@ -105,12 +106,14 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="32dp"
         android:layout_marginTop="29dp"
         android:layout_marginBottom="18dp"
+        android:background="@drawable/btncolo"
         android:fontFamily="@font/lato"
         android:text="Gallary"
+        android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"

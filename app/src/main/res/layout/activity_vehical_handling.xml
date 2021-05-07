@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrrond"
+    android:background="@drawable/carrental"
     tools:context=".vehicalHandling">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -23,9 +23,10 @@
         android:id="@+id/textView13"
         android:layout_width="400dp"
         android:layout_height="38dp"
+        android:background="@drawable/settin"
         android:text="view all vehical"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/recycleView"
         app:layout_constraintEnd_toEndOf="parent"

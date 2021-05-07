@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrrond"
+    android:background="@drawable/carrental"
     tools:context=".Addvehical">
 
     <EditText
@@ -74,24 +74,26 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="141dp"
-        android:layout_height="31dp"
-        android:background="#F4F3F3"
+        style="@style/style1"
+        android:layout_width="161dp"
+        android:layout_height="35dp"
+        android:background="@drawable/settin"
+        android:drawableLeft="@drawable/add_24"
         android:text="Add Vehical"
         android:textAlignment="center"
         android:textColorHighlight="#000000"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        style="@style/style1"/>
+        app:layout_constraintVertical_bias="0.26" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="359dp"
-        android:layout_height="131dp"
+        android:layout_width="362dp"
+        android:layout_height="137dp"
+        android:background="@drawable/btncolo"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,32 +107,35 @@
         android:id="@+id/btn1"
         android:layout_width="183dp"
         android:layout_height="47dp"
+        android:background="@drawable/settin"
+        android:drawableRight="@drawable/save"
         android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849"
-        android:background="@drawable/btncolo"/>
+        app:layout_constraintVertical_bias="0.849" />
 
     <Button
         android:id="@+id/viewbtn1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/settin"
+        android:drawableRight="@drawable/preview_24"
         android:text="view vehical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        android:background="@drawable/btncolo"/>
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/branding_watermark_24"
         android:text="Brand name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,6 +148,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/seat_recline_extra_24"
         android:text="passengers"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,6 +161,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/transform_24"
         android:text="transmissions"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,6 +174,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/money_24"
         android:text="daily price"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -179,6 +187,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
         android:text="Vehicle ID"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

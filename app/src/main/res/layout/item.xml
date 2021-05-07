@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="#FAF9F6"
+    android:background="@color/cardview_shadow_end_color"
     android:padding="10dp"
-    app:cardBackgroundColor="#FFFFFF"
+
     app:cardCornerRadius="10dp"
     app:cardElevation="8dp">
 
@@ -30,6 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/account"
                 android:padding="5dp"
                 android:text="Vehical ID :"
                 android:textSize="20sp"
@@ -57,6 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/branding_watermark_24"
                 android:padding="5dp"
                 android:text="Brand Name :"
                 android:textSize="20sp"
@@ -84,6 +86,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/seat_recline_extra_24"
                 android:padding="5dp"
                 android:text="Passenger :"
                 android:textSize="20sp"
@@ -116,6 +119,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/transform_24"
                 android:padding="5dp"
                 android:text="Transmissions :"
                 android:textSize="20sp"
@@ -143,6 +147,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/money_24"
                 android:padding="5dp"
                 android:text="Daily price :"
                 android:textSize="20sp"
@@ -170,11 +175,12 @@
                 android:id="@+id/del1"
                 style="@style/style1"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/btncolo"
+                android:background="@drawable/settin"
+                android:drawableBottom="@drawable/delete_forever_24"
                 android:text="Delete"
-                android:textColor="@color/black"
+                android:textColor="@android:color/holo_red_dark"
                 android:textColorHighlight="@color/black"
                 android:textColorHint="@color/white"
                 android:textColorLink="@color/white"

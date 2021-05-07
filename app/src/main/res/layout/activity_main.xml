@@ -208,6 +208,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider4"
         app:layout_constraintVertical_bias="0.041"
-        app:srcCompat="@drawable/imgs" />
+        app:srcCompat="@drawable/imgs"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
