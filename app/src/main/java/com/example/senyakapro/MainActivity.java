@@ -19,7 +19,7 @@ ImageView mImageView;
         setContentView(R.layout.activity_main);
 
         mImageView =(ImageView)findViewById(R.id.imggo);
-        mImageView.animate().alpha(0).setDuration(8000);
+        mImageView.animate().alpha(0).setDuration(4000);
 
 
         addbtn = findViewById(R.id.addbtn1);

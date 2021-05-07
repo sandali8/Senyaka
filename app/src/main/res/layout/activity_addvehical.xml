@@ -91,8 +91,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="362dp"
-        android:layout_height="137dp"
+        android:layout_width="412dp"
+        android:layout_height="134dp"
         android:background="@drawable/btncolo"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"

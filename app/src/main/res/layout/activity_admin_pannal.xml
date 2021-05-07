@@ -77,10 +77,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="391dp"
+        android:layout_width="406dp"
         android:layout_height="38dp"
         android:layout_marginTop="76dp"
-        android:background="@drawable/btncolo2"
+        android:background="@drawable/btncolo"
         android:text="Admin pannel"
         android:textAlignment="center"
         android:textSize="24sp"
