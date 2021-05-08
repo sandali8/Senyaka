@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SenyakaPro">
-        <activity android:name=".gallery"></activity>
+        <activity android:name=".FAQ_Activity"></activity>
+        <activity android:name=".Add_FAQ" />
+        <activity android:name=".gallery" />
         <activity android:name=".AdminPannal" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">

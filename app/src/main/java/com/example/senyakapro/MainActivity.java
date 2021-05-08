@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
-Button addbtn , imag;
+Button addbtn , imag ,faq;
 
 ImageView mImageView;
     @Override
@@ -30,12 +30,21 @@ ImageView mImageView;
                 startActivity(new Intent(MainActivity.this,Login.class));
             }
         });
-        imag = findViewById(R.id.imgbtn1);
+        imag = findViewById(R.id.imgbtn2);
 
         imag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,gallery.class));
+            }
+        });
+
+        faq = findViewById(R.id.imgbtn21);
+
+        faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,FAQ_Activity.class));
             }
         });
 

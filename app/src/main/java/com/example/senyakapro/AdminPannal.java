@@ -11,6 +11,8 @@ public class AdminPannal extends AppCompatActivity {
 
      Button button1;
      Button button4;
+    Button button5;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,15 @@ public class AdminPannal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AdminPannal.this,MainActivity.class));
+            }
+        });
+
+        button5 = findViewById(R.id.addfaq);
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AdminPannal.this,Add_FAQ.class));
             }
         });
 
