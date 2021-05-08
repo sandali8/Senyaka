@@ -43,9 +43,9 @@ public class MyAdapter_FAQ extends RecyclerView.Adapter<MyAdapter_FAQ.MyViewHold
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         Model_FAQ model = mList.get(position);
-        String xxx=String.valueOf(model.getQuc());
+        //String xxx=String.valueOf(model.getQuc());
 
-        holder.qucstion.setText(xxx);
+        holder.question.setText(model.getQua());
         holder.answer.setText(model.getAns());
 
     }
@@ -58,13 +58,13 @@ public class MyAdapter_FAQ extends RecyclerView.Adapter<MyAdapter_FAQ.MyViewHold
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView qucstion, answer;
+        TextView question,answer;
 
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            qucstion = itemView.findViewById(R.id.Quseion);
+            question = itemView.findViewById(R.id.Quseion);
             answer = itemView.findViewById(R.id.answer);
         }
 
