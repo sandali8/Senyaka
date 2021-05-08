@@ -42,7 +42,7 @@ public class vehicalHandling extends AppCompatActivity {
 
                 for (DataSnapshot dataSnapshot :snapshot.getChildren()){
 
-               Model model =dataSnapshot.getValue(Model.class);
+               Model model = dataSnapshot.getValue(Model.class);
                list.add(model);
                 }
                 adapter.notifyDataSetChanged();

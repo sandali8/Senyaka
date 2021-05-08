@@ -85,8 +85,8 @@
     <TextView
         android:id="@+id/textView11"
         style="@style/style1"
-        android:layout_width="242dp"
-        android:layout_height="14dp"
+        android:layout_width="238dp"
+        android:layout_height="23dp"
         android:text="Just 3 easy steps to rent your car"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -168,19 +168,19 @@
         app:layout_constraintVertical_bias="0.694" />
 
     <Button
+        style="@style/style1"
         android:layout_width="215dp"
         android:layout_height="50dp"
         android:layout_marginTop="44dp"
         android:layout_marginBottom="48dp"
         android:background="@drawable/btncolo"
-        android:text="Click here to book vehical"
+        android:text="Click here to book vehicle"
         app:layout_constraintBottom_toTopOf="@+id/divider4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider3"
-        app:layout_constraintVertical_bias="1.0"
-        style="@style/style1"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/imgbtn21"
