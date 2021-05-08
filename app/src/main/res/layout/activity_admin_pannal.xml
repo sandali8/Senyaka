@@ -16,7 +16,7 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/settin"
         android:drawableStart="@drawable/add_24"
-        android:text="Add Vehical"
+        android:text="Add Vehicle"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/addfaq"
