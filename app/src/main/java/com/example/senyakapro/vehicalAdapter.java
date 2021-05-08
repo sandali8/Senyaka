@@ -48,7 +48,7 @@ public class vehicalAdapter extends RecyclerView.Adapter<vehicalAdapter.MyViewHo
         holder.trans.setText(model.getTrans());
         holder.place.setText(model.getPlace());
 
-        holder.del1.setOnClickListener(new View.OnClickListener() { //delete
+       holder.del1.setOnClickListener(new View.OnClickListener() { //delete
             @Override
             public void onClick(View v) {
 
