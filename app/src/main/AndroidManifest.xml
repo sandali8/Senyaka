@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SenyakaPro">
-        <activity android:name=".FAQ_Activity"></activity>
+        <activity android:name=".find_payment"></activity>
+        <activity android:name=".allpayment" />
+        <activity android:name=".cash" />
+        <activity android:name=".credit" />
+        <activity android:name=".FAQ_Activity" />
         <activity android:name=".Add_FAQ" />
         <activity android:name=".gallery" />
         <activity android:name=".AdminPannal" />
@@ -21,15 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Addvehical">
-
-        </activity>
-
-        <activity android:name=".vehicalHandling">
-
-        </activity>
-
+        <activity android:name=".Addvehical" />
+        <activity android:name=".vehicalHandling" />
     </application>
 
 </manifest>

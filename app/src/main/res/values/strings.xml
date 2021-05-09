@@ -7,4 +7,22 @@
     <string name="tran">Please enter the transmissions!</string>
     <string name="bna">Please enter the daily price!</string>
     <string name="ett">pleace enter the user name</string>
+
+    <string name="NIC">NIC</string>
+    <string name="VehicleID">Vehicle ID </string>
+    <string name="BookedDate">Booked date</string>
+    <string name="TotalAmount">Total amount</string>
+    <string name="payCash">Pay with Cash </string>
+    <string name="Confirm">If the information you entered is correct, click the confirm button to confirm the information </string>
+    <string name="customer_nic">Customer NIC</string>
+    <string name="vehicle_id">Vehicle ID</string>
+    <string name="textview8">TextView8</string>
+    <string name="textview16">TextView16</string>
+    <string name="textview12">TextView12</string>
+    <string name="textview10">TextView10</string>
+    <string name="imageview2">ImageView2</string>
+    <string name="textview18">Credit card no</string>
+    <string name="textview19">CVV</string>
+    <string name="textview9">Find a payment details</string>
+
 </resources>
