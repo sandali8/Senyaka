@@ -14,11 +14,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.177"
-        app:srcCompat="@drawable/galla" />
+        app:srcCompat="@drawable/cara" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -26,11 +26,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.522"
-        app:srcCompat="@drawable/galla" />
+        app:srcCompat="@drawable/carc" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -38,11 +38,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.522"
-        app:srcCompat="@drawable/galla" />
+        app:srcCompat="@drawable/card" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -50,11 +50,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/galla" />
+        app:layout_constraintVertical_bias="0.86"
+        app:srcCompat="@drawable/care" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -62,11 +62,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/galla" />
+        app:layout_constraintVertical_bias="0.86"
+        app:srcCompat="@drawable/imgs" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -74,11 +74,11 @@
         android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.177"
-        app:srcCompat="@drawable/galla" />
+        app:srcCompat="@drawable/carb" />
 
     <View
         android:id="@+id/divider5"
