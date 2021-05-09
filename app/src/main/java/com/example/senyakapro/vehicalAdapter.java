@@ -16,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
 public class vehicalAdapter extends RecyclerView.Adapter<vehicalAdapter.MyViewHolder> {
+
         private FirebaseDatabase db =  FirebaseDatabase.getInstance();
         private DatabaseReference root = db.getReference("Bokking");
 
@@ -55,7 +56,7 @@ public class vehicalAdapter extends RecyclerView.Adapter<vehicalAdapter.MyViewHo
 
 
                 root.child(id2).removeValue();
-                Toast.makeText(context, "Succesfully Deleted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Successfully Deleted", Toast.LENGTH_SHORT).show();
             }
         });
 
