@@ -45,7 +45,7 @@ public class MyAdapter_FAQ extends RecyclerView.Adapter<MyAdapter_FAQ.MyViewHold
         Model_FAQ model = mList.get(position);
         //String xxx=String.valueOf(model.getQuc());
 
-        holder.question.setText(model.getQua());
+        holder.question.setText(model.getQuc());
         holder.answer.setText(model.getAns());
 
     }
