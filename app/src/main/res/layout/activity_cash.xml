@@ -198,7 +198,7 @@
     <EditText
         android:id="@+id/txtamount"
         android:layout_width="91dp"
-        android:layout_height="110dp"
+        android:layout_height="111dp"
         android:layout_marginStart="213dp"
         android:layout_marginTop="495dp"
         android:layout_marginEnd="34dp"
@@ -208,6 +208,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
