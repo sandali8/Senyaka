@@ -126,7 +126,7 @@ public class allpayment extends AppCompatActivity {
         reference2.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                //get all children in Cache payment and add to our array
+
                 for(DataSnapshot postSnapshot : snapshot.getChildren()){
 
                     DataSet temp=new DataSet();
@@ -135,9 +135,9 @@ public class allpayment extends AppCompatActivity {
                     temp.bookedDate=(!postSnapshot.child("bookedDate").exists()?"-":postSnapshot.child("bookedDate").getValue().toString());
                     temp.total=(!postSnapshot.child("totalAmount").exists()?"-":postSnapshot.child("totalAmount").getValue().toString());
                     temp.paymentType="Card";
-                    //update the current List
+
                     paymentData.add(temp);
-                    paymentData.add(temp);
+
 
 
                 }

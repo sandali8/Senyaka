@@ -11,8 +11,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="186dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:layout_marginBottom="613dp"
         android:text="@string/payCash"
@@ -38,7 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.968"
-        app:srcCompat="@drawable/car" />
+        app:srcCompat="@drawable/car"/>
 
     <TextView
         android:id="@+id/vehicleID"
@@ -136,7 +136,7 @@
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/btncolo"
-        android:text="Confirm"
+        android:text="@string/confirm"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -183,16 +183,11 @@
         android:id="@+id/txtdate"
         android:layout_width="152dp"
         android:layout_height="45dp"
-        android:layout_marginStart="216dp"
         android:layout_marginTop="443dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="254dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -202,7 +197,6 @@
         android:layout_marginStart="213dp"
         android:layout_marginTop="495dp"
         android:layout_marginEnd="34dp"
-        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"

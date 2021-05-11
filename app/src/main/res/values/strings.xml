@@ -24,5 +24,6 @@
     <string name="textview18">Credit card no</string>
     <string name="textview19">CVV</string>
     <string name="textview9">Find a payment details</string>
+    <string name="confirm">Confirm</string>
 
 </resources>
