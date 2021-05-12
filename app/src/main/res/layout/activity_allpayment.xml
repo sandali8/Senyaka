@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/carrental"
     tools:context=".allpayment">
 
     <ImageView
@@ -14,27 +15,29 @@
         android:layout_marginTop="82dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="507dp"
+        android:background="@drawable/btncolo2"
         android:src="@drawable/car"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375" />
+        app:layout_constraintVertical_bias="0.234" />
 
     <Button
         android:id="@+id/find"
-        android:layout_width="158dp"
-        android:layout_height="36dp"
+        android:layout_width="112dp"
+        android:layout_height="44dp"
         android:layout_marginStart="237dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="291dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="399dp"
+        android:layout_marginBottom="396dp"
         android:background="@drawable/btncolo"
         android:text="Find a payment"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -69,18 +72,18 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="145dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="191dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="191dp"
-        android:layout_marginBottom="685dp"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="676dp"
+        android:background="@drawable/btncolo"
         android:text="  All payment"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

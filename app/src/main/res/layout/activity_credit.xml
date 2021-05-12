@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgrrond"
+    android:background="@drawable/carrental"
     tools:context=".credit">
 
     <TextView
@@ -15,7 +15,8 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="143dp"
         android:layout_marginBottom="640dp"
-        android:text="Pay with Credit card"
+        android:background="@drawable/btncolo"
+        android:text="     Pay with Credit card"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,12 +28,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="281dp"
+        android:layout_width="334dp"
         android:layout_height="179dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="39dp"
         android:layout_marginTop="107dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginEnd="38dp"
         android:layout_marginBottom="445dp"
+        android:background="@drawable/btncolo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,8 +43,8 @@
 
     <TextView
         android:id="@+id/vehicleID"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="322dp"
         android:layout_marginEnd="268dp"
@@ -50,6 +52,7 @@
         android:text="@string/VehicleID"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,8 +76,8 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
         android:layout_marginTop="378dp"
         android:layout_marginEnd="256dp"
@@ -82,6 +85,7 @@
         android:text="@string/customer_nic"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.227"
@@ -106,8 +110,8 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="434dp"
         android:layout_marginEnd="273dp"
@@ -115,6 +119,7 @@
         android:text="@string/BookedDate"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -139,8 +144,8 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="487dp"
         android:layout_marginEnd="273dp"
@@ -148,6 +153,7 @@
         android:text="@string/TotalAmount"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -171,8 +177,8 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="120dp"
-        android:layout_height="52dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="543dp"
         android:layout_marginEnd="273dp"
@@ -180,6 +186,7 @@
         android:text="@string/textview18"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -203,8 +210,8 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
         android:layout_marginTop="605dp"
         android:layout_marginEnd="272dp"
@@ -212,10 +219,13 @@
         android:text="@string/textview19"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
 
     <EditText
         android:id="@+id/txtcvv"

@@ -25,5 +25,10 @@
     <string name="textview19">CVV</string>
     <string name="textview9">Find a payment details</string>
     <string name="confirm">Confirm</string>
+    <string name="CreditPayment">CREDIT PAYMENT</string>
+    <string name="CashPayment">CASH PAYMENT</string>
+    <string name="Find">FIND</string>
+
+
 
 </resources>
