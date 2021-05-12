@@ -17,17 +17,13 @@ import com.google.firebase.database.FirebaseDatabase;
 public class cash extends AppCompatActivity {
 
 
-
-    FirebaseDatabase rootNode;
-    DatabaseReference reference;
-
     Button btn2;
     Cash_Payment cp;
     DatabaseReference reff;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cash);
+        setContentView(R.layout.cash);
 
         EditText VehicleID = findViewById(R.id.txtID);
         EditText customerNIC = findViewById(R.id.txtNIC);
